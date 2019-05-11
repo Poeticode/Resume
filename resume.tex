@@ -1,6 +1,8 @@
-% James Pearson Hughes's Resume
+% Joseph Silas Tippens' Resume
+% URL: https://github.com/Poeticode/Resume
+% Forked from James Pearson Hughes' resume
 % URL: https://github.com/xiongchiamiov/Resume
-% Forked from Chris Gibson's resume
+% Which was forked from Chris Gibson's resume
 % URL: https://github.com/cgibson/Resume
 % Which is in turn based on resume tex file by Kamil Wojcicki
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
@@ -11,11 +13,11 @@
 
 \begin{document}
 
-\name{\huge \sc{James Pearson Hughes}\vspace{2mm}}
+\name{\huge \sc{Joseph Silas Tippens}\vspace{2mm}}
 {
-    \hfill hireme@mail.changedmy.name       \vspace{0mm}\\\vspace{0mm}%
-    \hfill https://changedmy.name           \vspace{0mm}\\\vspace{0mm}%
-    \hfill https://github.com/xiongchiamiov \vspace{0mm}\\\vspace{-9mm}%
+    \hfill me@silentsilas.com       \vspace{0mm}\\\vspace{0mm}%
+    \hfill https://silentsilas.com           \vspace{0mm}\\\vspace{0mm}%
+    \hfill https://github.com/Poeticode \vspace{0mm}\\\vspace{-9mm}%
 }
 
 \begin{resume}
@@ -26,7 +28,7 @@
     % Summary
     \section{\mysidestyle \textbf{\large{S}\small{UMMARY}}}
 
-    \textbf{\textsl{Site Reliability Engineer}} particularly interested in \textbf{failure analysis}, \textbf{security}, and \textbf{performance}, and, most importantly, the \textbf{human aspect} of each of these.  Obsessed with high-quality technical documentation.  Prolific open-sourcer with over 150 Github repos and patches accepted into over 40 projects.  Author and maintainer of 9 git/Github tools, 11 RubyGems, 9 Python packages.  Top 0.5\% user on Stack Overflow, Server Fault, and Information Security Stack Exchange.
+    \textbf{\textsl{Interactive Developer}} with a penchant for \textbf{performance}, \textbf{novelty}, and \textbf{security}. Obsessed with \textbf{human language} and the impact of emergent technologies on society. 
 
     \vspace{-1mm}
 
@@ -36,51 +38,53 @@
     % Professional Experience
     \section{\mysidestyle \textbf{\large{P}\small{ROFESSIONAL} \large{E}\small{XPERIENCE}}}
 
-    % *ahem*
-    \textbf{\listing Stealth Startup} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{DevOps Engineer} \hfill \textbf{December 2015 -- present}\\
-    Introduce operations practices and tools into a rapidly growing company.\\
-    Work on a wide range of tasks, including web development (Flask, Pyramid, custom C++, custom Python), build systems (Bazel), an in-house deploy application, operations for several dozen applications, network security, AWS user support, software documentation, and organization-wide standards.
-
-    % reddit
-    \textbf{\listing reddit, Inc.} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Software Engineer} \hfill \textbf{August 2014 -- December 2015}\\
-    One of half a dozen engineers responsible for user-facing features on reddit.com, a site with over 200 million monthly active users.\\
-    Fixed many bugs and annoyances that had been present for years.\\
-    Built relationships with third-party add-on developers and community moderators.\\
-    Implemented an A/B testing framework, a new comment sort and display algorithm, one of the most well-received features in site history (non-silent sidewide bans), and an expanded image preview system used by mobile web and third-party apps.\\
-    Constantly refactored, documented, and added tests.\\
-    Most work available for perusal at https://github.com/reddit/reddit .
-
-    % iFixit
-    \textbf{\listing iFixit} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Web Operations Lead Engineer} \hfill \textbf{June 2012 -- August 2014}\\
-    \textsl{DevOps Engineering Intern} \hfill \textbf{March 2011 -- June 2012}\\
-    Implemented caching system that prevents previously-frequent media-induced downtimes.\\
-    Implemented and champion application monitoring, leading to improvements in performance, stability, and user experience.\\
-    Wrote alerting system that gives developers direct access to failure reports.\\
-    Kickstarted thriving internal high-level documentation project.\\
-    Improved startup time of application servers from 15 minutes with 25\% failures to \textless5 minutes with no failures.
-
-    % XYZ Textbooks
-    \textbf{\listing XYZ Textbooks} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Web Programmer / Sysadmin} \hfill \textbf{June 2008 -- March 2011}
-
-    % Cal Poly
-    \textbf{\listing Cal Poly} \vspace{2mm}\\\vspace{1mm}%
-    \textsl{Web Developer} \hfill \textbf{July 2008 -- November 2008}
+    \textbf{\listing L2D} \textsl{(formerly Level2d)} \vspace{2mm}\\\vspace{1mm}%
+    \textsl{Interactive Developer} \hfill \textbf{December 2013 -- present}\\
+    Began an internship to learn modern front-end development, which evolved into a full-time position.\\
+    Developed several websites utlizing a wide-range of technologies, including modern build tools (Grunt / Gulp, Webpack, SCSS), Vue, Git, Foundation, and ThreeJS.\\
+    Experimented with visualizing realtime Kinect data in the browser, via NodeJS Websockets, LZMA compression, ThreeJS, and custom Python. \\
+    Implemented an API for a media player progressive web application using Elixir (Phoenix Framework) and AWS (S3, Cloudfront, RDS). \\
+    Developed several mixed reality experiences using the Unreal Engine and Unity3D, one of which is deployed to the Steam Store (Spare Teeth VR). \\
+    Most importantly, introduced several good-hygiene security habits at both the organizational and software levels.
 
 \sectionline
+
+    %__________________________________________________________________________________________________________________
+    % Passion Projects
+    \section{\mysidestyle \textbf{\large{P}\small{ASSION} \large{P}\small{ROJECTS}}}
+
+    \textbf{\listing Silent Silas}\\
+    \textsl{https://github.com/Poeticode/silentsilas.com} \hfill \textbf{July 2018 -- present}\\
+    A performant, static portfolio/blog site showcasing personal poetry and side-projects.\\
+    Generated with Hugo, which is then deployed to IPFS and a personal Apache server.\\
+    Written in HTML, SCSS, and ES6 Javascript, with various ThreeJS visualizations.\\
+    Gathers analytics via a self-hosted, GDPR-compliant FOSS service (Matamo).\\
+    Features a self-hosted, GDPR-compliant FOSS commenting system (Commento) for each post. 
+
+    \textbf{\listing The Muse}\\
+    \textsl{https://chattymuse.com/} \hfill \textbf{June 2018 -- April 2019}\\
+    Led a weekly creative workshop geared towards writers and artists, where we promote lateral thinking with the goal of harnessing creativity from within oneself, and undo the popular idea that one's best work arises from escapism and substance abuse.
+
+    \textbf{\listing OuREM}\\
+    \textsl{not yet publicly available} \hfill \textbf{October 2018 -- present}\\
+    A cross-platform mobile application that interfaces with the Oura Ring. It allows the user to quickly add an entry to their dream journal via text-to-speech technologies, and visualizes your past REM cycles with tag clouds of their accompanying dream entry.\\
+    Written in Dart via the Flutter framework.
+
+    \textbf{\listing Pr1vy}\\
+    \textsl{https://github.com/Poeticode/Privy} \hfill \textbf{February 2019 -- present}\\
+    Began as a simple password generator, then became an open-source and cross-platform (Android / iOS) application to interactively show the math and magic behind password security, encrypted communications, and data integrity verification. Written in Vue and Typescript, designed with the Quasar framework, and deployed via Cordova.
+
+    \vspace{-1mm}
+
+\sectionline
+
 
     %__________________________________________________________________________________________________________________
     % Education
     \section{\mysidestyle \textbf{\large{E}\small{DUCATION}}}
 
-    \textbf{\listing California Polytechnic University}, San Luis Obispo, California \vspace{1mm}\\
-    \textsl{B.S of Software Engineering} \hfill \textbf{September 2007 -- May 2012}\vspace{-3mm}\\\vspace{-1mm}%
-
-    \textbf{\listing Coursera / Johns Hopkins} \vspace{1mm}\\
-    \textsl{Computing for Data Analysis} -- 99\% with distinction \hfill \textbf{January 2014 -- February 2014}\vspace{-3mm}\\\vspace{-1mm}%
+    \textbf{\listing Covenant College}, Lookout Mountain, Georgia \vspace{1mm}\\
+    \textsl{B.S of Computer Science with Cyber Security Concentration} \hfill \textbf{August 2011 -- May 2015}\vspace{-3mm}\\\vspace{-1mm}%
 
     \vspace{-1mm}
 
@@ -90,15 +94,14 @@
     % Skills / Keywords
     \section{\mysidestyle \textbf{\large{S}\small{KILLS} / \large{K}\small{EYWORDS}}}
 
-    \textbf{Linux:} Red Hat family (CentOS), Arch Linux, Debian family (Ubuntu, Debian)\\
-    \textbf{Monitoring/Alerting:} Graphite, StatsD, Alertinator, Diamond, pipe-to-graphite, collectd\\
-    \textbf{Scripting:} Bash and utils (sed, awk, grep), Python, Ruby\\
-    \textbf{Backend:} Python (Django, Flask, Pyramid), PHP (Symfony, custom), Ruby (Sinatra)\\
-    \textbf{Frontend:} HTML, CSS and Less, Javascript (jQuery, MooTools)\\
-    \textbf{Databases:} MySQL, PostgreSQL, SQLite, Cassandra\\
-    \textbf{Web Application servers/proxies:} Varnish, Apache, HAProxy, Nginx, Tomcat, Cherokee, uWSGI\\
-    \textbf{Version control systems:} Git, Mercurial, Subversion\\
-    \textbf{Misc:} Amazon Web Services (EC2, S3, CloudFront), Docker, Ansible, Gearman, beanstalkd
+    \textbf{Linux:} CentOS, Ubuntu / Debian\\
+    \textbf{Scripting:} Bash, Python, Ruby\\
+    \textbf{Backend:} PHP (CraftCMS, Laravel, custom), Elixir (Phoenix), NodeJS (Express)\\
+    \textbf{Frontend:} HTML, CSS/SCSS, Javascript (ES6, Typescript, Vue, Webpack, ThreeJS), Dart (Flutter)\\
+    \textbf{Databases:} MySQL, PostgreSQL\\
+    \textbf{Web Application servers/proxies:} Apache, HAProxy, Nginx\\
+    \textbf{Version control systems:} Git\\
+    \textbf{Misc:} Amazon Web Services (S3, CloudFront, RDS), Docker, Ansible, Vagrant
 
 
 
